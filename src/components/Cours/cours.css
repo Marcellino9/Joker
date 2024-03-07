@@ -1,0 +1,17 @@
+.coursContainer {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.coursContainer .containt {
+  height: 100vh;
+  width: 95%;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: hsl(0, 0%, 100%);
+}

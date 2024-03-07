@@ -1,0 +1,38 @@
+.exit-left {
+    animation: exitLeftAnimation 0.5s ease-out;
+  }
+  
+  .enter-right {
+    animation: enterRightAnimation 0.5s ease-out;
+  }
+  
+  @keyframes exitLeftAnimation {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes enterRightAnimation {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .btn1{
+    background-color: green;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    color: white;
+  }
+  
